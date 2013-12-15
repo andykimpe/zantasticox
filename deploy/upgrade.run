@@ -1,0 +1,30 @@
+<?php
+// Zantastico X Open Source Script Installer for ZPX
+// Version          : 10.1.2.4 (12-23-2013)
+// Updated By       : TGates for ZPanel X translation system andykimpe
+// Additional Work  : Durandle
+// Packages Updated : 03/08/2013 by jacobg830
+// Contact Email    : tgates@zpanelcp.com
+// Original Authors : Bobby Allen/Mudasir Mirza
+
+require_once('cnf/db.php');
+require_once('dryden/db/driver.class.php');
+require_once('dryden/debug/logger.class.php');
+require_once('dryden/runtime/dataobject.class.php');
+require_once('dryden/sys/versions.class.php');
+require_once('dryden/ctrl/options.class.php');
+require_once('dryden/ctrl/auth.class.php');
+require_once('dryden/ctrl/users.class.php');
+require_once('dryden/fs/director.class.php');
+require_once('inc/dbc.inc.php');
+
+//First variable is the new version. Second variable is the module folder name
+UpgradeModule('10124', 'zantasticox');
+
+function UpgradeModule($newversion, $module){
+    global $zdbh;
+    $sql = $zdbh->prepare("UPDATE x_modules SET mo_version_in = $newversion WHERE mo_folder_vc = '$module'");
+    $sql->execute();     
+}
+
+?>
