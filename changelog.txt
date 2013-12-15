@@ -1,0 +1,118 @@
+// Zantastico X Open Source Script Installer for ZPX
+// Version          : 10.1.2.4 (12-23-2013)
+// Updated By       : TGates for ZPanel X translation system andykimpe
+// Additional Work  : Durandle
+// Packages Updated : 03/08/2013 by jacobg830
+// Contact Email    : tgates@zpanelcp.com
+// Original Authors : Bobby Allen/Mudasir Mirza
+ 
+09/10/2012 Zantastico X v1.0.0 released:
+Initial release.
+
+09/11/2012 v1.0.2 released:
+Fixed wrong variable being used for installation link - Thanks to NightDragon
+Auto-update feature removed. (More testing required)
+
+09/13/2012 v10.0.5 released:
+Fixed missing file error. - DaveTom13
+Updated version number to coincide with ZPX
+Added translation code
+Worked on auto-updater
+Edited layout
+
+10/8/2012 v10.0.5.3 released:
+Fixed layout issue in CentOS 6.3
+
+10/19/2012 v10.0.5.4 released:
+Added root install capability.
+Better way of notifying users if a package needs a database.
+
+Updated root install code
+Added function to remove all files/folders in root folder
+Added function to get server OS type and chmod/chown files/folders properly - still working on permissions
+Added ImpressPages123 as a default package
+
+Revision: 73
+Author: jacobg830
+Date: Wednesday, March 06, 2013 3:39:29 PM
+Message:
+Packages were updated to latest stable releases
+
+Revision: 84
+Author: tgates
+Date: Tuesday, April 09, 2013 10:56:11 AM
+Message:
+added Dan's permissions code in code/functions.php;
+Changed update URL back to zppy-repo.mach-hosting.com from modules.zpanelcp.com/repo/ (zpanel repo not fully working yet);
+
+Revision: 91
+Author: tgates
+Date: Friday, August 02, 2013 1:43:55 PM
+Message:
+worked on 10.1.0 bootstrap compatibility (theming);
+
+Revision: 94
+Author: tgates
+Date: Friday, August 02, 2013 7:36:33 PM
+Message:
+Added ability to use/add custom installers;
+zanx-install.php - custom installer file;
+if it exists, the code inside it will be run;
+
+Revision: 96
+Author: tgates
+Date: Friday, August 02, 2013 10:03:25 PM
+Message:
+updated version number to 10.1.1.0;
+added PNProv101;
+added Moodle v251;
+added XML tag <ostype> for Repo_Browser integration
+
+Revision: 104
+Author: jacobg830
+Date: Saturday, August 03, 2013 2:11:26 PM
+Message:
+updated version number to 10.1.1.1;
+Updated all packages
+
+Revision: 107
+Author: tgates
+Date: Thursday, August 08, 2013 10:27:46 AM
+Message:
+updated version number to 10.1.1.2;
+Fixed  minor issue with version/date time stamping;
+Fixed header appearance (had wrong css variables);
+
+Revision: 114
+Author: tgates
+Date: Thursday, September 05, 2013 5:38:15 PM
+Message:
+updated version number to 10.1.2.2;
+Added requires database and user questions with links;
+fixed joomla315.zip (files were missing);
+minor fixes to installer code;
+
+Revision: 116
+Author: tgates
+Date: Friday, September 13, 2013 2:19:03 PM
+Message:
+updated version number to 10.1.2.3;
+updated Platinum Nuke Pro packages (pnp101.zip);
+changed all repo references to ZPanel Module Repository;
+
+Revision: 117
+Author: andykimpe
+Date: Monday, December 23, 2013 5:00:00 PM
+Message:
+updated version number to 10.1.2.4;
+updated Joomla v 3.2 and all system language
+updated Wordpress v 3.8 English and French Language
+updated Drupal v 7.24 all system language
+updated MyBB Forum v 1.6.11 all system language
+updated phpBB v 3.0.12 all system language
+updated Simple Machines Forum v 2.0.6 all system language
+updated b2evolution v 5.0.6 all system language
+updated Moodle v 2.6+ all system language
+updated DokuWiki v 2013-12-08 "Binky" all system language
+add zantasticotx full traslation system
+add zantasticotx full french translation (updated on zpxfrtrad)
