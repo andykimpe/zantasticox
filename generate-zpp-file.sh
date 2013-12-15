@@ -67,6 +67,7 @@ rm -rf MyBB_1611
 wget "http://community.mybb.com/attachment.php?aid=30427"
 unzip -u "attachment.php?aid=30427"
 rm -f "attachment.php?aid=30427"
+rm -f readme.html
 
 # Serbian language
 wget "http://community.mybb.com/attachment.php?aid=30301"
