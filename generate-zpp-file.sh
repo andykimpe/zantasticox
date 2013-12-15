@@ -9,6 +9,7 @@ cd packages
 # generate create packages and xml file
 
 # generate mybb all language
+# mybb translation system http://community.mybb.com/thread-114917.html
 mkdir mybb
 cd mybb
 wget http://www.mybb.com/download/latest
@@ -84,6 +85,7 @@ cd ..
 rm -rf mybb
 
 # generate phpbb all language
+# phpbb translation system https://www.phpbb.com/languages/index.php
 wget https://www.phpbb.com/files/release/phpBB-3.0.12.zip
 unzip phpBB-3.0.12.zip
 rm -f phpBB-3.0.12.zip
@@ -425,6 +427,8 @@ rm -f id_84900
 cp -R vietnamese_1_3_1/* ./
 rm -rf vietnamese_1_3_1
 
+
+# create zip file
 zip -r ../phpbb3012.zip *
 cd ..
 rm -rf phpBB3
