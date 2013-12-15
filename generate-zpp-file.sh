@@ -89,7 +89,7 @@ rm -rf mybb
 wget https://www.phpbb.com/files/release/phpBB-3.0.12.zip
 unzip phpBB-3.0.12.zip
 rm -f phpBB-3.0.12.zip
-cp -R phpBB3
+cd phpBB3
 
 # American (English) language
 wget https://www.phpbb.com/customise/db/download/id_91116
