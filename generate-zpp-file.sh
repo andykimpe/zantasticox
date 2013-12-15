@@ -22,6 +22,7 @@ rm -rf Upload/
 wget http://upload.mybb.fr/French_language_pack.1.6.11.zip
 unzip -u French_language_pack.1.6.11.zip
 rm -f French_language_pack.1.6.11.zip
+rm -f readme.html
 
 # German (Deutsch) (Informal - Deutsch Du) Language
 wget http://files.mybb-forum.de/downloads/lang_deutsch_du_1611.zip
