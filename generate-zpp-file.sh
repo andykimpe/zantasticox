@@ -472,35 +472,27 @@ cd profiles/minimal/translations
 
 # Afrikaans
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.af.po
-mv drupal-7.23.af.po drupal-7.24.af.po
-cp drupal-7.24.af.po ../../standard/translations
 
 # Albanian
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sq.po
-mv drupal-7.23.sq.po drupal-7.24.sq.po
-cp drupal-7.23.sq.po ../../standard/translations
 
 # Amharic
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.am.po
-mv drupal-7.23.am.po drupal-7.24.am.po
-cp drupal-7.24.am.po ../../standard/translations
 
 # Arabic
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ar.po
-mv drupal-7.23.ar.po drupal-7.24.ar.po
-cp drupal-7.24.ar.po ../../standard/translations
 
-#
+# Armenian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.hy.po
 
+# Asturian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ast.po
 
+# Azerbaijani
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.az.po
 
-
-
-
-
-
-
-
+# Bahasa Malaysia
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ms.po
 
 
 
@@ -522,3 +514,12 @@ cp drupal-7.24.ar.po ../../standard/translations
 
 
 
+
+
+
+
+
+for file in drupal-7.23*; do
+mv $file ${file/drupal-7.23/drupal-7.24}
+done
+cp *.po ../../standard/translations
