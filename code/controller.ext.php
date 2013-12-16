@@ -159,12 +159,12 @@ class module_controller {
     $Langue = strtolower(substr(chop($Langue[0]),0,2));
     }
 	// intégrate with langue else use english
-	if (file_exists('modules/zantasticox/packages/'.$Langue.'-packages.xml')) {
+	if (file_exists('modules/zantasticox/packages/'.$Langue.'.packages.xml')) {
     $lang = $Langue;
     } else {
     $lang = en;
     } 
-		$packages= new xml_reader(fs_filehandler::ReadFileContents('modules/zantasticox/packages/'.$lang.'-packages.xml'));
+		$packages= new xml_reader(fs_filehandler::ReadFileContents('modules/zantasticox/packages/'.$lang.'.packages.xml'));
 		$packages->Parse();
 
 		$toReturn .="
