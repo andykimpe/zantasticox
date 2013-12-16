@@ -463,7 +463,43 @@ rm -rf wordpress
 # drupal translation system https://localize.drupal.org/
 wget http://ftp.drupal.org/files/projects/drupal-7.24.zip
 unzip drupal-7.24.zip
-cd drupal-7.24
+cd drupal-7.24/profiles/minimal/translations
+
+# Afrikaans
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.af.po
+mv drupal-7.23.af.po drupal-7.24.af.po
+cp drupal-7.24.af.po ../../standard/translations
+
+# Albanian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sq.po
+mv drupal-7.23.sq.po drupal-7.24.sq.po
+cp drupal-7.23.sq.po ../../standard/translations
+
+# Amharic
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.am.po
+mv drupal-7.23.am.po drupal-7.24.am.po
+cp drupal-7.24.am.po ../../standard/translations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
