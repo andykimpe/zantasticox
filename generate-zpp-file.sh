@@ -535,6 +535,7 @@ unzip -u site_zh-CN.zip
 rm -f site_zh-CN.zip
 unzip -u admin_zh-CN.zip
 rm -f admin_zh-CN.zip
+cd ..
 
 
 
