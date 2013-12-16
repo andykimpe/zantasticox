@@ -1,7 +1,7 @@
 #!/bin/bash
 # download git and create environnement
-git clone https://github.com/andykimpe/zantasticotx.git
-cd zantasticotx
+git clone https://github.com/andykimpe/zantasticox.git
+cd zantasticox
 rm -rf .git .gitignore
 mkdir packages
 cd packages
