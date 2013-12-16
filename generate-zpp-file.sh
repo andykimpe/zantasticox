@@ -18,7 +18,7 @@ rm -f *.zip
 cp -R Upload/* ./
 rm -rf Upload/
 
-# French (Français) Language
+# French (FranÃ§ais) Language
 wget http://upload.mybb.fr/French_language_pack.1.6.11.zip
 unzip -u French_language_pack.1.6.11.zip
 rm -f French_language_pack.1.6.11.zip
@@ -44,7 +44,7 @@ rm -rf "Installation & Upgrade"
 cp -R -n Sprachdateien/* inc/languages
 rm -rf Sprachdateien
 
-# Persian (فارسی) language
+# Persian (ÙØ§Ø±Ø³ÛŒ) language
 wget "http://community.mybb.com/attachment.php?aid=30300"
 unzip -u "attachment.php?aid=30300"
 rm -f "attachment.php?aid=30300"
@@ -63,7 +63,7 @@ rm -f "attachment.php?aid=30318"
 cp -R -n MyBB_1611/Upload/* ./
 rm -rf MyBB_1611
 
-# Spanish (Español) language
+# Spanish (EspaÃ±ol) language
 wget "http://community.mybb.com/attachment.php?aid=30427"
 unzip -u "attachment.php?aid=30427"
 rm -f "attachment.php?aid=30427"
@@ -98,21 +98,21 @@ rm -f id_91116
 cp -R american_english_1_3_0/* ./
 rm -rf american_english_1_3_0
 
-# French (Français) language
+# French (FranÃ§ais) language
 wget https://www.phpbb.com/customise/db/download/id_91611
 unzip -u id_91611
 rm -f id_91611
 cp -R french_1_4_1/* ./
 rm -rf french_1_4_1
 
-# Arabic (العربية) language
+# Arabic (Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©) language
 wget https://www.phpbb.com/customise/db/download/id_92651
 unzip -u id_92651
 rm -f id_92651
 cp -R arabic_1_6_0_3/* ./
 rm -rf arabic_1_6_0_3
 
-# Argentinian Spanish (Español Argentino) language
+# Argentinian Spanish (EspaÃ±ol Argentino) language
 wget https://www.phpbb.com/customise/db/download/id_91866
 unzip -u id_91866
 rm -f id_91866
@@ -126,42 +126,42 @@ rm -f id_84782
 cp -R basque_1_1_2/* ./
 rm -rf basque_1_1_2
 
-# Belarusian (Беларуская) language
+# Belarusian (Ð‘ÐµÐ»Ð°Ñ€ÑƒÑÐºÐ°Ñ) language
 wget https://www.phpbb.com/customise/db/download/id_85375
 unzip -u id_85375
 rm -f id_85375
 cp -R belarusian_3_0_11/* ./
 rm -rf belarusian_3_0_11
 
-# Brazilian Portuguese (Беларуская) language
+# Brazilian Portuguese (Ð‘ÐµÐ»Ð°Ñ€ÑƒÑÐºÐ°Ñ) language
 wget https://www.phpbb.com/customise/db/download/id_91801
 unzip -u id_91801
 rm -f id_91801
 cp -R brazilian_portuguese_1_0_7/* ./
 rm -rf brazilian_portuguese_1_0_7
 
-# Bulgarian (Беларуская) language
+# Bulgarian (Ð‘ÐµÐ»Ð°Ñ€ÑƒÑÐºÐ°Ñ) language
 wget https://www.phpbb.com/customise/db/download/id_85730
 unzip -u id_85730
 rm -f id_85730
 cp -R bulgarian_1_0_5/* ./
 rm -rf bulgarian_1_0_5
 
-# Catalan (Català) language
+# Catalan (CatalÃ ) language
 wget https://www.phpbb.com/customise/db/download/id_91531
 unzip -u id_91531
 rm -f id_91531
 cp -R catalan_1_0_6/* ./
 rm -rf catalan_1_0_6
 
-# Croatian (Català) language
+# Croatian (CatalÃ ) language
 wget https://www.phpbb.com/customise/db/download/id_85022
 unzip -u id_85022
 rm -f id_85022
 cp -R croatian_1_0_5/* ./
 rm -rf croatian_1_0_5
 
-# Czech (Čeština) language
+# Czech (ÄŒeÅ¡tina) language
 wget https://www.phpbb.com/customise/db/download/id_85593
 unzip -u id_85593
 rm -f id_85593
@@ -231,7 +231,7 @@ rm -f id_82608-sid_efa1f03bfd4f422559d76a3fe3d418fd
 cp -R greek_3_0_10/* ./
 rm -rf greek_3_0_10
 
-# Hebrew (עברית) language
+# Hebrew (×¢×‘×¨×™×ª) language
 wget https://www.phpbb.com/customise/db/download/id_93006-sid_2eb01c61bf64f5e4798ae1912fb7fa2f
 unzip -u id_93006-sid_2eb01c61bf64f5e4798ae1912fb7fa2f
 rm -f id_93006-sid_2eb01c61bf64f5e4798ae1912fb7fa2f
@@ -259,56 +259,56 @@ rm -f id_91861-sid_89f63e5c30e659b42f810054b6886a62
 cp -R italian_1_2_2/* ./
 rm -rf italian_1_2_2
 
-# Japanese (日本語) language
+# Japanese (æ—¥æœ¬èªž) language
 wget https://www.phpbb.com/customise/db/download/id_92251-sid_92d17f55e0b3661ed520877ada517b21
 unzip -u id_92251-sid_92d17f55e0b3661ed520877ada517b21
 rm -f id_92251-sid_92d17f55e0b3661ed520877ada517b21
 cp -R japanese_1_0_5/* ./
 rm -rf japanese_1_0_5
 
-# Kurdish (کوردی) language
+# Kurdish (Ú©ÙˆØ±Ø¯ÛŒ) language
 wget https://www.phpbb.com/customise/db/download/id_84789
 unzip -u id_84789
 rm -f id_84789
 cp -R kurdish_1_0_5/* ./
 rm -rf kurdish_1_0_5
 
-# Lithuanian (Lietuvių) language
+# Lithuanian (LietuviÅ³) language
 wget https://www.phpbb.com/customise/db/download/id_94446
 unzip -u id_94446
 rm -f id_94446
 cp -R lithuanian_2013_10_20/* ./
 rm -rf lithuanian_2013_10_20
 
-# Macedonian (македонски јазик) language
+# Macedonian (Ð¼Ð°ÐºÐµÐ´Ð¾Ð½ÑÐºÐ¸ Ñ˜Ð°Ð·Ð¸Ðº) language
 wget https://www.phpbb.com/customise/db/download/id_83006
 unzip -u id_83006
 rm -f id_83006
 cp -R macedonian_1_0_1/* ./
 rm -rf macedonian_1_0_1
 
-# Mandarin Chinese Simplified (简体中文) language
+# Mandarin Chinese Simplified (ç®€ä½“ä¸­æ–‡) language
 wget https://www.phpbb.com/customise/db/download/id_91456
 unzip -u id_91456
 rm -f id_91456
 cp -R mandarin_chinese_simplified_script_1_0_3/mandarin_chinese*/* ./
 rm -rf mandarin_chinese_simplified_script_1_0_3
 
-# Mandarin Chinese Traditional (正體中文) language
+# Mandarin Chinese Traditional (æ­£é«”ä¸­æ–‡) language
 wget https://www.phpbb.com/customise/db/download/id_91411
 unzip -u id_91411
 rm -f id_91411
 cp -R mandarin_chinese_traditional_script_1_0_5/mandarin_chinese*/* ./
 rm -rf mandarin_chinese_traditional_script_1_0_5
 
-# Mexican Spanish (Español Mexicano) language
+# Mexican Spanish (EspaÃ±ol Mexicano) language
 wget https://www.phpbb.com/customise/db/download/id_92146
 unzip -u id_92146
 rm -f id_92146
 cp -R mexican_spanish_casual_honorifics_1_0_5/mexican_spanish_1_0_5/* ./
 rm -rf mexican_spanish_casual_honorifics_1_0_5
 
-# Persian (فارسی) language
+# Persian (ÙØ§Ø±Ø³ÛŒ) language
 wget https://www.phpbb.com/customise/db/download/id_84784
 unzip -u id_84784
 rm -f id_84784
@@ -322,28 +322,28 @@ rm -f id_84758
 cp -R polish_r210/* ./
 rm -rf polish_r210
 
-# Portuguese (Português) language
+# Portuguese (PortuguÃªs) language
 wget https://www.phpbb.com/customise/db/download/id_91501-sid_fa44101f2b16ccf1e77b33415cdf1501
 unzip -u id_91501-sid_fa44101f2b16ccf1e77b33415cdf1501
 rm -f id_91501-sid_fa44101f2b16ccf1e77b33415cdf1501
 cp -R portuguese_1_0_6/* ./
 rm -rf portuguese_1_0_6
 
-# Romanian (Română) language
+# Romanian (RomÃ¢nÄƒ) language
 wget https://www.phpbb.com/customise/db/download/id_84641-sid_49a52b2c944ade82a404f0e3f02cfc38
 unzip -u id_84641-sid_49a52b2c944ade82a404f0e3f02cfc38
 rm -f id_84641-sid_49a52b2c944ade82a404f0e3f02cfc38
 cp -R romanian_1_0_5/* ./
 rm -rf romanian_1_0_5
 
-# Russian (Русский) language
+# Russian (Ð ÑƒÑÑÐºÐ¸Ð¹) language
 wget https://www.phpbb.com/customise/db/download/id_91291-sid_2f1105bcdc80fe1235ffece076b9edd2
 unzip -u id_91291-sid_2f1105bcdc80fe1235ffece076b9edd2
 rm -f id_91291-sid_2f1105bcdc80fe1235ffece076b9edd2
 cp -R russian_1_0_11/* ./
 rm -rf russian_1_0_11
 
-# Serbian Cyrillic (Српски) language
+# Serbian Cyrillic (Ð¡Ñ€Ð¿ÑÐºÐ¸) language
 wget https://www.phpbb.com/customise/db/download/id_92921-sid_e74a8dc46463d7f3fafeb1ade076fec0
 unzip -u id_92921-sid_e74a8dc46463d7f3fafeb1ade076fec0
 rm -f id_92921-sid_e74a8dc46463d7f3fafeb1ade076fec0
@@ -357,28 +357,28 @@ rm -f id_84606-sid_073df919f91add3e6881720d784f424d
 cp -R serbian_latin_script_3_0_11/* ./
 rm -rf serbian_latin_script_3_0_11
 
-# Slovak (Slovenčina) language
+# Slovak (SlovenÄina) language
 wget https://www.phpbb.com/customise/db/download/id_93561
 unzip -u id_93561
 rm -f id_93561
 cp -R slovak_3_0_12_2/* ./
 rm -rf slovak_3_0_12_2
 
-# Slovenian (Slovenščina) language
+# Slovenian (SlovenÅ¡Äina) language
 wget https://www.phpbb.com/customise/db/download/id_91736-sid_3ba16b2eab910ee3911daa093e204fe5
 unzip -u id_91736-sid_3ba16b2eab910ee3911daa093e204fe5
 rm -f id_91736-sid_3ba16b2eab910ee3911daa093e204fe5
 cp -R slovenian_1_3_0/* ./
 rm -rf slovenian_1_3_0
 
-# Spanish Casual Honorifics (Español Tú) language
+# Spanish Casual Honorifics (EspaÃ±ol TÃº) language
 wget https://www.phpbb.com/customise/db/download/id_92696-sid_a3b2a72f9b2800d65cbddf442649a0e3
 unzip -u id_92696-sid_a3b2a72f9b2800d65cbddf442649a0e3
 rm -f id_92696-sid_a3b2a72f9b2800d65cbddf442649a0e3
 cp -R spanish_casual_honorifics_1_0_6/spanish_*/* ./
 rm -rf spanish_casual_honorifics_1_0_6
 
-# Spanish Formal Honorifics (Español Usted) language
+# Spanish Formal Honorifics (EspaÃ±ol Usted) language
 wget https://www.phpbb.com/customise/db/download/id_92601-sid_94c4839135d8d8cb4e1a9e6df904f29c
 unzip -u id_92601-sid_94c4839135d8d8cb4e1a9e6df904f29c
 rm -f id_92601-sid_94c4839135d8d8cb4e1a9e6df904f29c
@@ -392,35 +392,35 @@ rm -f id_94846-sid_466897cf485fb7361c4df2fa651caecd
 cp -R svenska_1_4_8/swedish_1_4_8/* ./
 rm -rf svenska_1_4_8
 
-# Thai (ภาษาไทย) language
+# Thai (à¸ à¸²à¸©à¸²à¹„à¸—à¸¢) language
 wget https://www.phpbb.com/customise/db/download/id_92706-sid_44ea5d7f2a312e9fb9f1d569d31c7ed8
 unzip -u id_92706-sid_44ea5d7f2a312e9fb9f1d569d31c7ed8
 rm -f id_92706-sid_44ea5d7f2a312e9fb9f1d569d31c7ed8
 cp -R thai_1_0_9/* ./
 rm -rf thai_1_0_9
 
-# Turkish (Türkçe) language
+# Turkish (TÃ¼rkÃ§e) language
 wget https://www.phpbb.com/customise/db/download/id_91371
 unzip -u id_91371
 rm -f id_91371
 cp -R turkish_1_0_6/* ./
 rm -rf turkish_1_0_6
 
-# Ukrainian (Українська) language
+# Ukrainian (Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°) language
 wget https://www.phpbb.com/customise/db/download/id_92276
 unzip -u id_92276
 rm -f id_92276
 cp -R ukrainian_1_0_9/* ./
 rm -rf ukrainian_1_0_9
 
-# Urdu (اردو) language
+# Urdu (Ø§Ø±Ø¯Ùˆ) language
 wget https://www.phpbb.com/customise/db/download/id_81743
 unzip -u id_81743
 rm -f id_81743
 cp -R urdu_1_0_1/* ./
 rm -rf urdu_1_0_1
 
-# Vietnamese (Tiếng Việt) language
+# Vietnamese (Tiáº¿ng Viá»‡t) language
 wget https://www.phpbb.com/customise/db/download/id_84900
 unzip -u id_84900
 rm -f id_84900
