@@ -459,9 +459,11 @@ zip -r ./wordpress38fr.zip *
 cd ..
 rm -rf wordpress
 
-
-
-
+# Drupal 7.24 all language
+# drupal translation system https://localize.drupal.org/
+wget http://ftp.drupal.org/files/projects/drupal-7.24.zip
+unzip drupal-7.24.zip
+cd drupal-7.24
 
 
 
