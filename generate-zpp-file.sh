@@ -560,8 +560,78 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.et.po
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.fo.po
 
+# Filipino
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.fil.po
+
+# Finnish
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.fi.po
+
+# Frisian, Western
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.fy.po
+
+# Galician
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.gl.po
+
+# Georgian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ka.po
 
 
+# German
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.de.po
+
+# Greek
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.el.po
+
+# Gujarati
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.gu.po
+
+# Haitian Creole
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ht.po
+
+# Hebrew
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.he.po
+
+# 
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
