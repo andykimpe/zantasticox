@@ -2,13 +2,13 @@
 # download git and create environnement
 git clone https://github.com/andykimpe/zantasticox.git
 cd zantasticox
-rm -rf .git .gitignore LICENSE README.md
+rm -rf .git .gitignore LICENSE
 mkdir packages
 cd packages
 
 # generate create packages and xml file
 
-# generate mybb all language
+# generate mybb 1.6.12 all language
 # mybb translation system http://community.mybb.com/thread-114917.html
 mkdir mybb
 cd mybb
@@ -84,7 +84,7 @@ zip -r ../mybb1611.zip *
 cd ..
 rm -rf mybb
 
-# generate phpbb all language
+# generate phpbb 3.0.12 all language
 # phpbb translation system https://www.phpbb.com/languages/index.php
 wget https://www.phpbb.com/files/release/phpBB-3.0.12.zip
 unzip phpBB-3.0.12.zip
@@ -435,13 +435,13 @@ rm -rf phpBB3
 
 
 
-# generate joomla all language
+# generate joomla 3.2.0 all language
 # all language auto include
 wget http://joomlacode.org/gf/download/frsrelease/18838/86936/Joomla_3.2.0-Stable-Full_Package.zip
 mv Joomla_3.2.0-Stable-Full_Package.zip Joomla320.zip
 
 
-# WordPress English
+# WordPress 3.8 English
 wget http://wordpress.org/latest.zip
 unzip latest.zip
 rm -f latest.zip
@@ -450,7 +450,7 @@ zip -r ./wordpress38.zip *
 cd ..
 rm -rf wordpress
 
-# WordPress French
+# WordPress 3.8 French
 wget http://fr.wordpress.org/wordpress-3.8-fr_FR.zip
 unzip wordpress-3.8-fr_FR.zip
 rm -f wordpress-3.8-fr_FR.zip
@@ -461,9 +461,14 @@ rm -rf wordpress
 
 # Drupal 7.24 all language
 # drupal translation system https://localize.drupal.org/
-wget http://ftp.drupal.org/files/projects/drupal-7.24.zip
-unzip drupal-7.24.zip
-cd drupal-7.24/profiles/minimal/translations
+# default language include archive french and english
+wget http://drupalfr.org/sites/default/files/drupal-7.latest.tar.gz
+unzip drupal-7.latest.tar.gz
+cd drupal-7.24
+
+cp sites/default/default.settings.php sites/default/settings.php
+
+cd profiles/minimal/translations
 
 # Afrikaans
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.af.po
@@ -480,10 +485,12 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.am.po
 mv drupal-7.23.am.po drupal-7.24.am.po
 cp drupal-7.24.am.po ../../standard/translations
 
+# Arabic
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ar.po
+mv drupal-7.23.ar.po drupal-7.24.ar.po
+cp drupal-7.24.ar.po ../../standard/translations
 
-
-
-
+#
 
 
 
