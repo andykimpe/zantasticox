@@ -2,7 +2,7 @@
 # download git and create environnement
 git clone https://github.com/andykimpe/zantasticox.git
 cd zantasticox
-rm -rf .git .gitignore
+rm -rf .git .gitignore LICENSE README.md
 mkdir packages
 cd packages
 
