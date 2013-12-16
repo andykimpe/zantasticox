@@ -537,6 +537,37 @@ unzip -u admin_zh-CN.zip
 rm -f admin_zh-CN.zip
 cd ..
 
+# Chinese (Traditional) Translation
+mkdir zh-TW
+cd zh-TW
+wget http://joomlacode.org/gf/download/frsrelease/17573/132802/zh-TW_joomla_lang_full_3.2.0v1.zip
+unzip -u zh-TW_joomla_lang_full_3.2.0v1.zip
+rm -f zh-TW_joomla_lang_full_3.2.0v1.zip
+unzip -u site_zh-TW.zip
+rm -f site_zh-TW.zip
+unzip -u admin_zh-TW.zip
+rm -f admin_zh-TW.zip
+cd ..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
