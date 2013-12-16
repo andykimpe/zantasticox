@@ -436,7 +436,7 @@ rm -rf phpBB3
 
 
 # generate joomla 3.2.0 all language
-# all language auto include
+# all language auto include in installers
 wget http://joomlacode.org/gf/download/frsrelease/18838/86936/Joomla_3.2.0-Stable-Full_Package.zip
 mv Joomla_3.2.0-Stable-Full_Package.zip Joomla320.zip
 
@@ -461,7 +461,7 @@ rm -rf wordpress
 
 # Drupal 7.24 all language
 # drupal translation system https://localize.drupal.org/
-# default language include archive french and english
+# default language include in archive french and english
 wget http://drupalfr.org/sites/default/files/drupal-7.latest.tar.gz
 unzip drupal-7.latest.tar.gz
 cd drupal-7.24
@@ -494,27 +494,91 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.az.po
 # Bahasa Malaysia
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ms.po
 
+# Basque
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.eu.po
+
+# Belarusian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.be.po
+
+# Bengali
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.bn.po
+
+# Bosnian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.bs.po
+
+# Bulgarian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.bg.po
+
+# Burmese
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.my.po
+
+# Catalan
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ca.po
+
+# Chinese, Simplified
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.zh-hans.po
+
+# Chinese, Traditional
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.zh-hant.po
+
+# Croatian
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.hr.po
+
+# Czech
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+
+
+# Danish
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.da.po
+
+# Dutch
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.nl.po
+
+
+# Dzongkha
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.dz.po
+
+
+# English, British
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.en-gb.po
+
+
+# Esperanto
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.eo.po
+
+
+# Estonian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.et.po
+
+
+# Faeroese
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.fo.po
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
 
 
 
@@ -522,4 +586,5 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ms.po
 for file in drupal-7.23*; do
 mv $file ${file/drupal-7.23/drupal-7.24}
 done
+rm -f ../../standard/translations/drupal-7.24.fr.po
 cp *.po ../../standard/translations
