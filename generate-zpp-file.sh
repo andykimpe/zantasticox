@@ -523,9 +523,18 @@ unzip -u site_ca-ES.zip
 rm -f site_ca-ES.zip
 unzip -u admin_ca-ES.zip
 rm -f admin_ca-ES.zip
+cd ..
 
-
-
+# Chinese (Simplified) Translation
+mkdir zh-CN
+cd zh-CN
+wget http://joomlacode.org/gf/download/frsrelease/18868/91494/zh-CN_joomla_lang_full_3.2.0v1.zip
+unzip -u zh-CN_joomla_lang_full_3.2.0v1.zip
+rm -f zh-CN_joomla_lang_full_3.2.0v1.zip
+unzip -u site_zh-CN.zip
+rm -f site_zh-CN.zip
+unzip -u admin_zh-CN.zip
+rm -f admin_zh-CN.zip
 
 
 
