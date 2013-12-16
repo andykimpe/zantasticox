@@ -441,9 +441,14 @@ wget http://joomlacode.org/gf/download/frsrelease/18838/86936/Joomla_3.2.0-Stabl
 mv Joomla_3.2.0-Stable-Full_Package.zip Joomla320.zip
 
 
-
-
-
+# WordPress English
+wget http://wordpress.org/latest.zip
+unzip latest.zip
+rm -f latest.zip
+cd wordpress
+zip -r ./wordpress38.zip *
+cd ..
+rm -rf wordpress
 
 
 
