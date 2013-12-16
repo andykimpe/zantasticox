@@ -450,23 +450,6 @@ cd af-ZA
 wget http://joomlacode.org/gf/download/frsrelease/18940/122517/af-ZA_joomla_lang_full_3.2.0v1.zip
 unzip -u af-ZA_joomla_lang_full_3.2.0v1.zip
 rm -f af-ZA_joomla_lang_full_3.2.0v1.zip
-unzip -u site_af-ZA.zip
-rm -f site_af-ZA.zip
-unzip -u admin_af-ZA.zip
-rm -f admin_af-ZA.zip
-cd ..
-
-
-# Albanian Translation
-mkdir sq-AL
-cd sq-AL
-wget http://joomlacode.org/gf/download/frsrelease/18436/81178/sq-AL_joomla_lang_full_3.1.1v1.zip
-unzip -u sq-AL_joomla_lang_full_3.1.1v1.zip
-rm -f sq-AL_joomla_lang_full_3.1.1v1.zip
-unzip -u admin_sq-AL.zip
-rm -f admin_sq-AL.zip
-unzip -u site_sq-AL.zip
-rm -f site_sq-AL.zip
 cd ..
 
 
@@ -476,41 +459,6 @@ cd ar-AA
 wget http://joomlacode.org/gf/download/frsrelease/18935/122403/ar-AA_joomla_lang_full_3.2.0v1.zip
 unzip -u ar-AA_joomla_lang_full_3.2.0v1.zip
 rm -f ar-AA_joomla_lang_full_3.2.0v1.zip
-unzip -u admin_ar-AA.zip
-rm -f admin_ar-AA.zip
-unzip -u site_ar-AA.zip
-rm -f site_ar-AA.zip
-cd ..
-
-
-# Bosnian Translation
-mkdir bs-BA
-cd bs-BA
-wget http://joomlacode.org/gf/download/frsrelease/18448/81383/bs-BA_joomla_lang_full_3.1.1v1.zip
-unzip -u bs-BA_joomla_lang_full_3.1.1v1.zip
-rm -f bs-BA_joomla_lang_full_3.1.1v1.zip
-cp -R bs-BA_joomla_lang_full_3.1.1v1/* ./
-rm -rf bs-BA_joomla_lang_full_3.1.1v1
-unzip -u admin_bs-BA.zip
-rm -f admin_bs-BA.zip
-unzip -u site_bs-BA.zip
-rm -f site_bs-BA.zip
-unzip -u tinymce_lang_pack_ba.zip
-rm -f tinymce_lang_pack_ba.zip
-cd ..
-
-# Bulgarian Translation
-mkdir bg-BG
-cd bg-BG
-wget http://joomlacode.org/gf/download/frsrelease/17564/81157/bg-BG_joomla_lang_full_3.1.1.zip
-unzip -u bg-BG_joomla_lang_full_3.1.1.zip
-rm -f bg-BG_joomla_lang_full_3.1.1.zip
-unzip -u admin_bg-BG.zip
-rm -f admin_bg-BG.zip
-unzip -u site_bg-BG.zip
-rm -f site_bg-BG.zip
-unzip -u tinymce_bg-BG.zip
-rm -f tinymce_bg-BG.zip
 cd ..
 
 # Catalan Translation
@@ -519,10 +467,6 @@ cd ca-ES
 wget http://joomlacode.org/gf/download/frsrelease/18845/91485/ca-ES_joomla_lang_full_3.2.0v1.zip
 unzip -u ca-ES_joomla_lang_full_3.2.0v1.zip
 rm -f ca-ES_joomla_lang_full_3.2.0v1.zip
-unzip -u site_ca-ES.zip
-rm -f site_ca-ES.zip
-unzip -u admin_ca-ES.zip
-rm -f admin_ca-ES.zip
 cd ..
 
 # Chinese (Simplified) Translation
@@ -531,10 +475,6 @@ cd zh-CN
 wget http://joomlacode.org/gf/download/frsrelease/18868/91494/zh-CN_joomla_lang_full_3.2.0v1.zip
 unzip -u zh-CN_joomla_lang_full_3.2.0v1.zip
 rm -f zh-CN_joomla_lang_full_3.2.0v1.zip
-unzip -u site_zh-CN.zip
-rm -f site_zh-CN.zip
-unzip -u admin_zh-CN.zip
-rm -f admin_zh-CN.zip
 cd ..
 
 # Chinese (Traditional) Translation
@@ -543,24 +483,7 @@ cd zh-TW
 wget http://joomlacode.org/gf/download/frsrelease/17573/132802/zh-TW_joomla_lang_full_3.2.0v1.zip
 unzip -u zh-TW_joomla_lang_full_3.2.0v1.zip
 rm -f zh-TW_joomla_lang_full_3.2.0v1.zip
-unzip -u site_zh-TW.zip
-rm -f site_zh-TW.zip
-unzip -u admin_zh-TW.zip
-rm -f admin_zh-TW.zip
 cd ..
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
