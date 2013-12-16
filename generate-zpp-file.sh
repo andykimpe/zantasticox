@@ -450,10 +450,14 @@ zip -r ./wordpress38.zip *
 cd ..
 rm -rf wordpress
 
-
-
-
-
+# WordPress French
+wget http://fr.wordpress.org/wordpress-3.8-fr_FR.zip
+unzip wordpress-3.8-fr_FR.zip
+rm -f wordpress-3.8-fr_FR.zip
+cd wordpress
+zip -r ./wordpress38fr.zip *
+cd ..
+rm -rf wordpress
 
 
 
