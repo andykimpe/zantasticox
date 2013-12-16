@@ -499,10 +499,30 @@ unzip -u tinymce_lang_pack_ba.zip
 rm -f tinymce_lang_pack_ba.zip
 cd ..
 
+# Bulgarian Translation
+mkdir bg-BG
+cd bg-BG
+wget http://joomlacode.org/gf/download/frsrelease/17564/81157/bg-BG_joomla_lang_full_3.1.1.zip
+unzip -u bg-BG_joomla_lang_full_3.1.1.zip
+rm -f bg-BG_joomla_lang_full_3.1.1.zip
+unzip -u admin_bg-BG.zip
+rm -f admin_bg-BG.zip
+unzip -u site_bg-BG.zip
+rm -f site_bg-BG.zip
+unzip -u tinymce_bg-BG.zip
+rm -f tinymce_bg-BG.zip
+cd ..
 
-
-
-
+# Catalan Translation
+mkdir ca-ES
+cd ca-ES
+wget http://joomlacode.org/gf/download/frsrelease/18845/91485/ca-ES_joomla_lang_full_3.2.0v1.zip
+unzip -u ca-ES_joomla_lang_full_3.2.0v1.zip
+rm -f ca-ES_joomla_lang_full_3.2.0v1.zip
+unzip -u site_ca-ES.zip
+rm -f site_ca-ES.zip
+unzip -u admin_ca-ES.zip
+rm -f admin_ca-ES.zip
 
 
 
