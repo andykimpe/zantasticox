@@ -436,54 +436,23 @@ rm -rf phpBB3
 
 
 # generate joomla all language
-# joomla translation system http://community.joomla.org/translations/joomla-3-translations.html
-mkdir joomla
-cd joomla
+# all language auto include
 wget http://joomlacode.org/gf/download/frsrelease/18838/86936/Joomla_3.2.0-Stable-Full_Package.zip
-unzip -u Joomla_3.2.0-Stable-Full_Package.zip
-rm -f Joomla_3.2.0-Stable-Full_Package.zip
-
-# Afrikaans Translation
-cd language
-mkdir af-ZA
-cd af-ZA
-wget http://joomlacode.org/gf/download/frsrelease/18940/122517/af-ZA_joomla_lang_full_3.2.0v1.zip
-unzip -u af-ZA_joomla_lang_full_3.2.0v1.zip
-rm -f af-ZA_joomla_lang_full_3.2.0v1.zip
-cd ..
+mv Joomla_3.2.0-Stable-Full_Package.zip Joomla320.zip
 
 
-# Arabic Unitag Translation
-mkdir ar-AA
-cd ar-AA
-wget http://joomlacode.org/gf/download/frsrelease/18935/122403/ar-AA_joomla_lang_full_3.2.0v1.zip
-unzip -u ar-AA_joomla_lang_full_3.2.0v1.zip
-rm -f ar-AA_joomla_lang_full_3.2.0v1.zip
-cd ..
 
-# Catalan Translation
-mkdir ca-ES
-cd ca-ES
-wget http://joomlacode.org/gf/download/frsrelease/18845/91485/ca-ES_joomla_lang_full_3.2.0v1.zip
-unzip -u ca-ES_joomla_lang_full_3.2.0v1.zip
-rm -f ca-ES_joomla_lang_full_3.2.0v1.zip
-cd ..
 
-# Chinese (Simplified) Translation
-mkdir zh-CN
-cd zh-CN
-wget http://joomlacode.org/gf/download/frsrelease/18868/91494/zh-CN_joomla_lang_full_3.2.0v1.zip
-unzip -u zh-CN_joomla_lang_full_3.2.0v1.zip
-rm -f zh-CN_joomla_lang_full_3.2.0v1.zip
-cd ..
 
-# Chinese (Traditional) Translation
-mkdir zh-TW
-cd zh-TW
-wget http://joomlacode.org/gf/download/frsrelease/17573/132802/zh-TW_joomla_lang_full_3.2.0v1.zip
-unzip -u zh-TW_joomla_lang_full_3.2.0v1.zip
-rm -f zh-TW_joomla_lang_full_3.2.0v1.zip
-cd ..
+
+
+
+
+
+
+
+
+
 
 
 
