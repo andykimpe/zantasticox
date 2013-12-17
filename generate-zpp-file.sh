@@ -844,8 +844,17 @@ zip -r ../drupal724.zip *
 cd ..
 rm -rf drupal-7.24
 
-
-
+# generate php nuke 8.3.2 all language
+# all language auto include in zip file
+wget https://bitbucket.org/phpnuke/phpnuke/get/988b71c099f0.zip
+unzip 988b71c099f0.zip
+cp *.txt html
+rm -f *.txt
+rm -rf upgrades
+cd html
+zip -r ../phpnuke832.zip *
+cd ..
+rm -rf html
 
 
 
