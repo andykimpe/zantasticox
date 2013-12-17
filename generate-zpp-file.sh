@@ -672,36 +672,193 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.lv.po
 # Lithuanian
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.lt.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cs.po
 
+# Lolspeak
 
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.xx-lolspeak.po
+
+# Macedonian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mk.po
+
+# Malagasy
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mg.po
+
+# Malayalam
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ml.po
+
+# Maltese
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mt.po
+
+# Marathi
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mr.po
+
+# Mongolian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mn.po
+
+# Nepali
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ne.po
+
+# Northern Sami
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.se.po
+
+# Norwegian Bokmål
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.nb.po
+
+# Norwegian Nynorsk
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.nn.po
+
+# Occitan
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.oc.po
+
+# Ossetian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.os.po
+
+# Pashto
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ps.po
+
+# Persian, Farsi
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.fa.po
+
+# Polish
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.pl.po
+
+# Portuguese, Brazil
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.pt-br.po
+
+# Portuguese, Portugal
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.pt-pt.po
+
+# Punjabi
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.pa.po
+
+# Romanian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ro.po
+
+# Russian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ru.po
+
+# Scots
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sco.po
+
+# Scots Gaelic
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.gd.po
+
+# Serbian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sr.po
+
+# Sindhi
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sd.po
+
+# Sinhala
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.si.po
+
+# Slovak
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sk.po
+
+# Slovenian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sl.po
+
+# Spanish
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.es.po
+
+# Swahili
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sw.po
+
+# Swedish
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sv.po
+
+# Swiss German
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.gsw-berne.po
+
+# Tamil
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ta.po
+
+# Tamil, Sri Lanka
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ta-lk.po
+
+# Telugu
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.te.po
+
+# Test
+# I do not really know what it is that this language but it looks like there lol
+# Translation statistics
+# 2 contributors 12,54 % translated
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.test.po
+
+# Thai
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.th.po
+
+# Tibetan
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.bo.po
+
+# Tigrinya
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ti.po
+
+# Turkish
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.tr.po
+
+# Tuvan
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.tyv.po
+
+# Uighur
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ug.po
+
+# Ukrainian
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.uk.po
+
+# Urdu
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ur.po
+
+# Vietnamese
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.vi.po
+
+# Welsh
+
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cy.po
 
 
 for file in drupal-7.23*; do
@@ -709,3 +866,15 @@ mv $file ${file/drupal-7.23/drupal-7.24}
 done
 rm -f ../../standard/translations/drupal-7.24.fr.po
 cp *.po ../../standard/translations
+zip -r ../drupal724.zip
+cd ..
+rm -rf drupal-7.24
+
+
+
+
+
+
+
+
+
