@@ -680,10 +680,6 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mg.po
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ml.po
 
-# Maltese
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mt.po
-
 # Marathi
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.mr.po
@@ -711,14 +707,6 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.nn.po
 # Occitan
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.oc.po
-
-# Ossetian
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.os.po
-
-# Pashto
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ps.po
 
 # Persian, Farsi
 
@@ -759,10 +747,6 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.gd.po
 # Serbian
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sr.po
-
-# Sindhi
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.sd.po
 
 # Sinhala
 
@@ -818,10 +802,6 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.th.po
 # Tibetan
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.bo.po
-
-# Tigrinya
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ti.po
 
 # Turkish
 
