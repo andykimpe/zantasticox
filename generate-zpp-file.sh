@@ -463,7 +463,8 @@ rm -rf wordpress
 # drupal translation system https://localize.drupal.org/
 # default language include in archive french and english
 wget http://drupalfr.org/sites/default/files/drupal-7.latest.tar.gz
-unzip drupal-7.latest.tar.gz
+tar -xf drupal-7.latest.tar.gz
+rm -f drupal-7.latest.tar.gz
 cd drupal-7.24
 
 cp sites/default/default.settings.php sites/default/settings.php
