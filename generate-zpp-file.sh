@@ -541,12 +541,6 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.nl.po
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.dz.po
 
-
-# English, British
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.en-gb.po
-
-
 # Esperanto
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.eo.po
