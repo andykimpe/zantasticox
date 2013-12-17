@@ -867,7 +867,7 @@ done
 rm -f ../../standard/translations/drupal-7.24.fr.po
 cp *.po ../../standard/translations
 zip -r ../drupal724.zip
-cd ..
+cd ../../../
 rm -rf drupal-7.24
 
 
