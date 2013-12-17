@@ -835,8 +835,10 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.cy.po
 for file in drupal-7.23*; do
 mv $file ${file/drupal-7.23/drupal-7.24}
 done
-rm -f ../../standard/translations/drupal-7.24.fr.po
+mv ../../standard/translations/drupal-7.24.fr.po ../../standard/translations/drupal-7.24.fr.po.bak
 cp *.po ../../standard/translations
+rm -f ../../standard/translations/drupal-7.24.fr.po
+mv ../../standard/translations/drupal-7.24.fr.po.bak ../../standard/translations/drupal-7.24.fr.po
 zip -r ../drupal724.zip
 cd ../../../
 rm -rf drupal-7.24
