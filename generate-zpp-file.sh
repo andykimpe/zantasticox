@@ -640,10 +640,6 @@ wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.kk.po
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.km.po
 
-# Kinyarwanda
-
-wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.rw.po
-
 # Korean
 
 wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.23.ko.po
