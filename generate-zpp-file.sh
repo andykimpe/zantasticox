@@ -839,8 +839,9 @@ mv ../../standard/translations/drupal-7.24.fr.po ../../standard/translations/dru
 cp *.po ../../standard/translations
 rm -f ../../standard/translations/drupal-7.24.fr.po
 mv ../../standard/translations/drupal-7.24.fr.po.bak ../../standard/translations/drupal-7.24.fr.po
-zip -r ../../../drupal724.zip
 cd ../../../
+zip -r ../drupal724.zip *
+cd ..
 rm -rf drupal-7.24
 
 
